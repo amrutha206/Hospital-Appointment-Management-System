@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MercyCare Hospital | Home</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body data-page="home">
+  <nav class="navbar navbar-expand-lg navbar-light border-bottom sticky-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold text-primary" href="index.html"><i class="bi bi-heart-pulse-fill me-2"></i>MercyCare</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="doctors.html">Doctors</a></li>
+          <li class="nav-item"><a class="nav-link" href="appointment.html">Book Appointment</a></li>
+          <li class="nav-item"><a class="nav-link" href="patient-dashboard.html">Patient Dashboard</a></li>
+          <li class="nav-item"><a class="nav-link" href="admin-dashboard.html">Admin</a></li>
+          <li class="nav-item ms-lg-2"><a class="btn btn-outline-primary btn-sm" href="login.html">Login</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section class="hero-shell py-5">
+      <div class="container py-3 py-lg-5">
+        <div class="row align-items-center g-4 g-xl-5">
+          <div class="col-lg-6 hero-copy">
+            <span class="hero-kicker"><i class="bi bi-sparkles"></i> Digital healthcare command center</span>
+            <h1 class="hero-title">Healthcare that moves<br>at your pace.</h1>
+            <p class="section-desc text-white-50 mb-4">
+              Book faster, find specialists with less friction, and keep care information organized in one calm,
+              premium digital experience.
+            </p>
+            <div class="hero-action-row d-flex flex-column flex-sm-row gap-3">
+              <a class="btn btn-light btn-lg" href="appointment.html"><i class="bi bi-calendar2-plus me-2"></i>Book an Appointment</a>
+              <a class="btn btn-outline-light btn-lg" href="doctors.html"><i class="bi bi-search me-2"></i>Explore Specialists</a>
+            </div>
+            <div class="hero-metrics mt-4 mt-lg-5">
+              <div class="metric-tile">
+                <div class="value">48 specialists</div>
+                <div class="label">Across core departments</div>
+              </div>
+              <div class="metric-tile">
+                <div class="value">98% rating</div>
+                <div class="label">Patient satisfaction</div>
+              </div>
+              <div class="metric-tile">
+                <div class="value">24/7 support</div>
+                <div class="label">For urgent care routing</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 hero-visual">
+            <div class="glass-panel p-3 p-md-4 page-fade">
+              <div class="d-flex justify-content-between align-items-start mb-3">
+                <div>
+                  <div class="availability-pill mb-2"><span class="status-dot"></span> Live availability</div>
+                  <h2 class="h4 mb-1 text-white">Next appointment</h2>
+                  <p class="text-white-50 mb-0">A concise view of care, scheduling, and specialist context.</p>
+                </div>
+                <span class="badge rounded-pill bg-white text-navy">Command center</span>
+              </div>
+              <div class="row g-3">
+                <div class="col-md-7">
+                  <div class="doctor-slate h-100">
+                    <div class="avatar">SW</div>
+                    <div class="flex-grow-1">
+                      <div class="fw-bold text-white">Dr. Sarah Williams</div>
+                      <div class="text-white-50 small">Cardiology · 12 years</div>
+                      <div class="signal mt-2"><span class="dot"></span> Available today · 10:30 AM</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-5">
+                  <div class="command-card h-100">
+                    <div class="accent-bar"></div>
+                    <div class="p-3">
+                      <div class="card-title mb-2">Appointment card</div>
+                      <div class="small text-muted">Cardiology follow-up</div>
+                      <div class="fw-bold text-navy mt-2">Thursday, 10:30 AM</div>
+                      <div class="mt-3 d-flex flex-wrap gap-2">
+                        <span class="badge rounded-pill badge-soft">In-person</span>
+                        <span class="badge rounded-pill badge-soft">Verified</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="metric-card p-3 p-md-4">
+                    <div class="d-flex flex-wrap justify-content-between gap-3 align-items-center">
+                      <div>
+                        <div class="small text-muted text-uppercase fw-bold">Operational snapshot</div>
+                        <div class="value mt-1">1,120 visits this month</div>
+                      </div>
+                      <div class="d-flex flex-wrap gap-2">
+                        <span class="badge rounded-pill text-bg-dark">Emergency</span>
+                        <span class="badge rounded-pill text-bg-light text-dark border">Diagnostics</span>
+                        <span class="badge rounded-pill text-bg-light text-dark border">Follow-up</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-4 py-lg-5">
+      <div class="container">
+        <div class="d-flex flex-column flex-lg-row justify-content-between align-items-lg-end gap-3 mb-4">
+          <div>
+            <p class="section-kicker">Find your specialist</p>
+            <h2 class="section-title mb-2">Search by doctor, specialty or condition</h2>
+            <p class="section-desc mb-0">Discover care options quickly with a more guided entry point.</p>
+          </div>
+          <a href="doctors.html" class="btn btn-outline-primary">Open doctor directory</a>
+        </div>
+        <div class="search-band">
+          <form class="row g-3 align-items-end" action="doctors.html" method="get">
+            <div class="col-lg-6">
+              <label class="form-label fw-semibold">Search doctors</label>
+              <input type="search" name="q" class="form-control form-control-lg" placeholder="Search by doctor, specialty or condition">
+            </div>
+            <div class="col-lg-4">
+              <label class="form-label fw-semibold">Department</label>
+              <select name="department" class="form-select form-select-lg">
+                <option value="">All departments</option>
+                <option>Cardiology</option>
+                <option>Neurology</option>
+                <option>Orthopedics</option>
+                <option>Pediatrics</option>
+                <option>Radiology</option>
+                <option>Dermatology</option>
+                <option>Internal Medicine</option>
+                <option>ENT</option>
+              </select>
+            </div>
+            <div class="col-lg-2 d-grid">
+              <button class="btn btn-primary btn-lg" type="submit"><i class="bi bi-search me-2"></i>Search</button>
+            </div>
+          </form>
+          <div class="scroll-chips mt-4 pb-1">
+            <a class="specialty-chip" href="doctors.html?department=Cardiology">Cardiology</a>
+            <a class="specialty-chip" href="doctors.html?department=Neurology">Neurology</a>
+            <a class="specialty-chip" href="doctors.html?department=Orthopedics">Orthopedics</a>
+            <a class="specialty-chip" href="doctors.html?department=Pediatrics">Pediatrics</a>
+            <a class="specialty-chip" href="doctors.html?department=Dermatology">Dermatology</a>
+            <a class="specialty-chip" href="doctors.html?department=Internal Medicine">General Medicine</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5">
+      <div class="container">
+        <div class="section-heading mb-4">
+          <p class="section-kicker">Departments</p>
+          <h2 class="section-title">Clinical departments built for complete care</h2>
+        </div>
+        <div class="row g-4">
+          <div class="col-sm-6 col-lg-3"><div class="feature-card card h-100 border-0"><div class="card-body"><i class="bi bi-heart-pulse-fill text-primary fs-2"></i><h3 class="h5 mt-3">Cardiology</h3><p class="text-muted mb-0">Heart diagnostics, follow-ups, and interventional care.</p></div></div></div>
+          <div class="col-sm-6 col-lg-3"><div class="feature-card card h-100 border-0"><div class="card-body"><i class="bi bi-brain text-primary fs-2"></i><h3 class="h5 mt-3">Neurology</h3><p class="text-muted mb-0">Expert care for migraine, stroke, and nerve disorders.</p></div></div></div>
+          <div class="col-sm-6 col-lg-3"><div class="feature-card card h-100 border-0"><div class="card-body"><i class="bi bi-bandaid text-primary fs-2"></i><h3 class="h5 mt-3">Orthopedics</h3><p class="text-muted mb-0">Bone, joint, spine, and rehabilitation support.</p></div></div></div>
+          <div class="col-sm-6 col-lg-3"><div class="feature-card card h-100 border-0"><div class="card-body"><i class="bi bi-baby text-primary fs-2"></i><h3 class="h5 mt-3">Pediatrics</h3><p class="text-muted mb-0">Child healthcare with preventive and acute services.</p></div></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5 bg-light">
+      <div class="container">
+        <div class="section-heading mb-4">
+          <p class="section-kicker">Services</p>
+          <h2 class="section-title">End-to-end hospital services</h2>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-4"><div class="service-card card h-100 border-0"><div class="card-body"><i class="bi bi-clipboard2-pulse text-primary fs-3"></i><h3 class="h5 mt-3">Outpatient care</h3><p class="text-muted mb-0">Book and manage clinic visits with reminders and status tracking.</p></div></div></div>
+          <div class="col-md-4"><div class="service-card card h-100 border-0"><div class="card-body"><i class="bi bi-activity text-primary fs-3"></i><h3 class="h5 mt-3">Diagnostics</h3><p class="text-muted mb-0">Lab, imaging, and test follow-up workflows in one place.</p></div></div></div>
+          <div class="col-md-4"><div class="service-card card h-100 border-0"><div class="card-body"><i class="bi bi-shield-plus text-primary fs-3"></i><h3 class="h5 mt-3">Emergency support</h3><p class="text-muted mb-0">Fast access to urgent care with prioritised triage views.</p></div></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5">
+      <div class="container">
+        <div class="row align-items-center g-4">
+          <div class="col-lg-5">
+            <div class="section-heading mb-3">
+              <p class="section-kicker">Why choose us</p>
+              <h2 class="section-title">Designed around speed, trust, and clarity</h2>
+            </div>
+            <p class="section-desc">This interface focuses on operational clarity for staff and low-friction care access for patients. Every page is responsive, accessible, and connected through LocalStorage-powered mock data.</p>
+          </div>
+          <div class="col-lg-7">
+            <div class="row g-3">
+              <div class="col-md-6"><div class="check-card card border-0 h-100"><div class="card-body"><i class="bi bi-check-circle-fill text-success"></i><h3 class="h6 mt-3">Clear appointment flow</h3><p class="text-muted mb-0">From doctor search to confirmation in a few steps.</p></div></div></div>
+              <div class="col-md-6"><div class="check-card card border-0 h-100"><div class="card-body"><i class="bi bi-check-circle-fill text-success"></i><h3 class="h6 mt-3">Professional dashboards</h3><p class="text-muted mb-0">Patient and admin panels surface the right operational data.</p></div></div></div>
+              <div class="col-md-6"><div class="check-card card border-0 h-100"><div class="card-body"><i class="bi bi-check-circle-fill text-success"></i><h3 class="h6 mt-3">Persistent mock state</h3><p class="text-muted mb-0">Appointments, profiles, and auth actions persist in the browser.</p></div></div></div>
+              <div class="col-md-6"><div class="check-card card border-0 h-100"><div class="card-body"><i class="bi bi-check-circle-fill text-success"></i><h3 class="h6 mt-3">Responsive UX</h3><p class="text-muted mb-0">Works cleanly on desktop, tablet, and mobile screens.</p></div></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer py-5 border-top">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-md-4">
+          <h3 class="h5 text-navy">MercyCare Hospital</h3>
+          <p class="text-muted">A static healthcare platform demo focused on a premium hospital-management user experience.</p>
+        </div>
+        <div class="col-md-4">
+          <h4 class="h6">Contact</h4>
+          <p class="text-muted mb-1"><i class="bi bi-geo-alt me-2"></i>12 Wellness Avenue, City Center</p>
+          <p class="text-muted mb-1"><i class="bi bi-telephone me-2"></i>+1 (555) 014-2026</p>
+          <p class="text-muted mb-0"><i class="bi bi-envelope me-2"></i>care@mercycare.demo</p>
+        </div>
+        <div class="col-md-4">
+          <h4 class="h6">Quick links</h4>
+          <div class="d-flex flex-column gap-2">
+            <a href="doctors.html" class="text-decoration-none">Doctors</a>
+            <a href="appointment.html" class="text-decoration-none">Book appointment</a>
+            <a href="login.html" class="text-decoration-none">Login</a>
+          </div>
+        </div>
+      </div>
+      <div class="d-flex justify-content-between align-items-center mt-4 pt-3 border-top small text-muted">
+        <span>© 2026 MercyCare Hospital</span>
+        <span>Built for appointment and management workflows</span>
+      </div>
+    </div>
+  </footer>
+
+  <div class="toast-container position-fixed top-0 end-0 p-3" id="toastContainer"></div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/doctors.js"></script>
+</body>
+</html>
